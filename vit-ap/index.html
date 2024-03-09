@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="image.css" />
+  </head>
+  <body>
+    <!--nav-bar-->
+    <div class="nav" id="nav">
+      <img src="v-scout logo.jpg" alt="v" class="nav_logo" />
+      <h2><a href="index.html">Home</a></h2>
+      <h2><a href="map.html">Compass</a></h2>
+      <h2><a href="research.html">Research</a></h2>
+      <h2><a href="events.html">Events</a></h2>
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button onclick="search()"><img src="icon.webp" style="height: 16px; width: 16px;" alt=""></button>
+      </div>
+      <img src="profile.jpg" alt="jk" class="nav_avatar" />
+    </div>
+    <!-- header-->
+    <header>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="banner_2">
+            <div class="banner_contents">
+              <h1 class="banner_title">Gym</h1>
+              <div class="banner_buttons">
+                <button class="banner_button">navigate</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="banner">
+            <div class="banner_contents">
+              <h1 class="banner_title">Italian Food</h1>
+              <div class="banner_buttons">
+                <button class="banner_button">navigate</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="banner_1">
+            <div class="banner_contents">
+              <h1 class="banner_title">Badminton</h1>
+              <div class="banner_buttons">
+                <button class="banner_button">navigate</button>
+              </div></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Reccomendation of current events -->
+    <div class="row">
+      <h2>Categories</h2>
+      <div class="row_posters">
+        <a href="food.html">
+          <img src="food/tea and coffee.jpg" alt="" class="row__posterLarge" />
+          <div class="overlay-text">Food Text</div></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="sports.html"><img src="sports/football.jpg" alt="" class="row__posterLarge" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="events.html"><img src="events/event 1.jpg" alt="" class="row__posterLarge" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="lectures.html"><img src="guest lectures/guest1.png" alt="" class="row__posterLarge" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+      </div>
+    </div>
+    <!-- Categories-->
+    <div class="row">
+      <h2>Hot Topic</h2>
+      <div class="row_posters">
+        <img src="sports/gym.avif" alt="" class="row__posterLarge" />&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="food/icecream 2.jpg" alt="" class="row__posterLarge" />&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="sports/volleyball.jpg" alt="" class="row__posterLarge" />&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="guest lectures/guest1.png" alt="" class="row__posterLarge" />&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="sports/carroms" alt="" class="row__posterLarge" />&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="sports/chess" alt="" class="row__posterLarge" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
